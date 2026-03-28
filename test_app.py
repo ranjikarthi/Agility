@@ -1,5 +1,6 @@
 from app import add
 
 def test_add():
+    result = add(2, 3)
     print(result)
-    assert add(2, 3) == 5
+    assert result == 5
